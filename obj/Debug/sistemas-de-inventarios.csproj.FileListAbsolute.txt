@@ -1,0 +1,11 @@
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\bin\Debug\sistemas-de-inventarios.exe.config
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\bin\Debug\sistemas-de-inventarios.exe
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\bin\Debug\sistemas-de-inventarios.pdb
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas-de-inventarios.csproj.AssemblyReference.cache
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas-de-inventarios.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas_de_inventarios.Properties.Resources.resources
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas-de-inventarios.csproj.GenerateResource.cache
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas-de-inventarios.csproj.CoreCompileInputs.cache
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas-de-inventarios.exe
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas-de-inventarios.pdb
+C:\Users\Asinf\Desktop\ProyectoPOO\sistemas-de-inventarios\obj\Debug\sistemas_de_inventarios.login.resources
