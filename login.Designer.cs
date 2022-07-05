@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.25F);
-            this.label1.Location = new System.Drawing.Point(293, 36);
+            this.label1.Location = new System.Drawing.Point(166, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 51);
             this.label1.TabIndex = 0;
@@ -50,24 +50,25 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(195, 136);
+            this.txtUsername.Location = new System.Drawing.Point(155, 98);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(100, 22);
             this.txtUsername.TabIndex = 1;
             // 
             // btnDismiss
             // 
-            this.btnDismiss.Location = new System.Drawing.Point(169, 266);
+            this.btnDismiss.Location = new System.Drawing.Point(342, 143);
             this.btnDismiss.Name = "btnDismiss";
             this.btnDismiss.Size = new System.Drawing.Size(75, 23);
             this.btnDismiss.TabIndex = 2;
             this.btnDismiss.Text = "Dismiss";
             this.btnDismiss.UseVisualStyleBackColor = true;
+            this.btnDismiss.Click += new System.EventHandler(this.btnDismiss_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(104, 184);
+            this.label2.Location = new System.Drawing.Point(64, 146);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 0;
@@ -75,7 +76,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(195, 184);
+            this.txtPassword.Location = new System.Drawing.Point(155, 146);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(100, 22);
             this.txtPassword.TabIndex = 1;
@@ -83,7 +84,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(101, 139);
+            this.label3.Location = new System.Drawing.Point(61, 101);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 16);
             this.label3.TabIndex = 0;
@@ -91,18 +92,19 @@
             // 
             // btnEnter
             // 
-            this.btnEnter.Location = new System.Drawing.Point(342, 266);
+            this.btnEnter.Location = new System.Drawing.Point(342, 94);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(75, 23);
             this.btnEnter.TabIndex = 2;
-            this.btnEnter.Text = "Enter";
+            this.btnEnter.Text = " enter";
             this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
-            // Form1
+            // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(521, 236);
             this.Controls.Add(this.btnEnter);
             this.Controls.Add(this.btnDismiss);
             this.Controls.Add(this.txtPassword);
@@ -110,8 +112,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "login";
+            this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

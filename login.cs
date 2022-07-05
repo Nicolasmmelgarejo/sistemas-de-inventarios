@@ -32,5 +32,20 @@ namespace sistemas_de_inventarios
         {
 
         }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+            ServicioUsuarios servicioUsuarios = new ServicioUsuarios();
+            Usuario usuario = servicioUsuarios.GetUsuario(txtUsername.Text, txtPassword.Text);
+
+            MessageBox.Show(usuario.name);
+
+        }
+
+        private void btnDismiss_Click(object sender, EventArgs e)
+        {
+            txtPassword.Clear();
+            txtUsername.Clear();
+        }
     }
 }

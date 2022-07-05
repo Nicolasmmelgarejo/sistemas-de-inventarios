@@ -13,7 +13,7 @@ namespace sistemas_de_inventarios
         public static SqlConnection Connect()
         {
             SqlConnection cn = new SqlConnection($@"Data Source=.\SQLEXPRESS;Initial Catalog=proyectdb;Integrated Security=True");
-            cn.Open();
+            
             return cn;
         }
     }
